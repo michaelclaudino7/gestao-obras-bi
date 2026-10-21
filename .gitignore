@@ -1,0 +1,14 @@
+# Credenciais locais (nunca publicar)
+.env
+
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados gerados (podem ser recriados com gerar_dados.py)
+dados/*.csv
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
